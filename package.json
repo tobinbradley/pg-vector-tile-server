@@ -1,0 +1,22 @@
+{
+  "name": "pg-vector-tile-server",
+  "version": "1.0.0",
+  "description": "Converts PostGIS queries to pbf vector tiles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgis",
+    "vector-tiles"
+  ],
+  "author": "Tobin Bradley",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mapnik": "^3.4.16",
+    "pg": "^4.4.6",
+    "sphericalmercator": "^1.0.4",
+    "squel": "^4.3.0"
+  }
+}
