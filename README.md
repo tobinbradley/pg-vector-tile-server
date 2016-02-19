@@ -1,6 +1,6 @@
 # PostGIS Vector Tile server
 
-This thing is still very rought. Don't put it in production unless you're about to go out of town.
+This thing is still very rough. Don't put it in production unless you're about to go out of town.
 
 Credit to [Frank Rowe](http://frankrowe.org/posts/2015/03/17/postgis-to-protobuf.html) for the inspiration and basic code structure.
 
