@@ -1,13 +1,14 @@
 module.exports = {
   port: 8124,
   postgis: 'postgres://user:password@server/database',
+  cache: 'public, max-age=2629000',
   layers: {
     parcels: {
       table: 'tax_parcels',
       geom_column: 'geom',
-      srid: 2264,
       property_columns: ['pid'],
-      maxzoom: 14
+      maxzoom: 14,
+      minzoom: 14
     }
   }
 }

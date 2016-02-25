@@ -13,7 +13,8 @@
   "author": "Tobin Bradley",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4",
+    "d3-queue": "^2.0.2",
+    "hapi": "^13.0.0",
     "mapnik": "^3.4.16",
     "pg": "^4.4.6",
     "sphericalmercator": "^1.0.4",
