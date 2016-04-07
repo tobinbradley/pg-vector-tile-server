@@ -1,0 +1,15 @@
+{
+  "port": 8124,
+  "postgis": "postgres://postgrereader:postgrereader@gisdbopen1v/GISData",
+  "cache": "public, max-age=2629000",
+  "layers": {
+    "parcels": {
+      "table": "tax_parcels",
+      "geom_column": "the_geom",
+      "property_columns": ["pid"],
+      "maxzoom": 14,
+      "minzoom": 14,
+      "simplify": 5
+    }
+  }
+}

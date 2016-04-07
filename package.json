@@ -13,11 +13,13 @@
   "author": "Tobin Bradley",
   "license": "MIT",
   "dependencies": {
+    "chokidar": "^1.4.3",
     "d3-queue": "^2.0.2",
+    "geojson-vt": "^2.1.8",
     "hapi": "^13.0.0",
-    "mapnik": "^3.4.16",
     "pg": "^4.4.6",
     "sphericalmercator": "^1.0.4",
-    "squel": "^4.3.0"
+    "squel": "^4.3.0",
+    "vt-pbf": "^2.0.2"
   }
 }

@@ -1,10 +1,8 @@
 # PostGIS Vector Tile server
 
-This thing is still very rough. Don't put it in production unless you're about to go out of town.
+PostGIS to Mapbox vector tiles (pbf) using the [vt-pbf](https://github.com/anandthakker/vt-pbf) and [geojson-vt](https://github.com/mapbox/geojson-vt) libraries.
 
-Credit to [Frank Rowe](http://frankrowe.org/posts/2015/03/17/postgis-to-protobuf.html) for the inspiration and basic code structure.
-
-Note that to install this on Windows you'll need [Visual C++ Redistributable Packages for Visual Studio 2015](https://github.com/mapnik/node-mapnik#windows-specific).
+Credit to [Frank Rowe](http://frankrowe.org/posts/2015/03/17/postgis-to-protobuf.html) for the original idea.
 
 To get going:
 
