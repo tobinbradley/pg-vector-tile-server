@@ -1,4 +1,11 @@
-# PostGIS Vector Tile server
+# NOTE OF PROJECT ABANDONMENT
+
+I added PG to MVT as a service (in a much better/faster way) to [this project](https://github.com/tobinbradley/dirt-simple-postgis-http-api). 
+
+
+## PostGIS Vector Tile server
+
+
 
 PostGIS to Mapbox vector tiles (pbf) using the [vt-pbf](https://github.com/anandthakker/vt-pbf) and [geojson-vt](https://github.com/mapbox/geojson-vt) libraries.
 
